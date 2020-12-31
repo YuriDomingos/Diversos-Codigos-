@@ -1,7 +1,7 @@
 <?php
 
 /*error_reporting(0);
-init_set("display_error",false);
+init_set("display_error",false);  // this line is to invalidate the php error on the  screen
 */
 /**
  * The base configuration for WordPress
