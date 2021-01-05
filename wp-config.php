@@ -10,6 +10,18 @@ init_set("display_error",false);  // this line is to invalidate the php error on
  * installation. You don't have to use the web site, you can
  * copy this file to "wp-config.php" and fill in the values.
  *
+ 
+ // Se queremos obter o funcionamento dos errors  abaixo então 
+ 
+ /*
+define( 'WP_DEBUG_LOG', true );
+
+// Disable display of errors and warnings
+define( 'WP_DEBUG_DISPLAY', false );
+@ini_set( 'display_errors', 0 );
+
+// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
+define( 'SCRIPT_DEBUG', true );
  * This file contains the following configurations:
  *
  * * MySQL settings
