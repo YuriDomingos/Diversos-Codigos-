@@ -1,0 +1,52 @@
+
+
+/*
+@Autor : Yuri Domingos 
+Data   : 8 - 01 - 2021
+Objectivo : Construir o css do site da OSAI 
+
+*/
+/* hide course breadcrumbs */
+.learn-press-breadcrumb {
+    display: none;
+}
+
+/* hide student count */
+.course-students {
+    display: none;
+}
+
+/* hide instructor tab */
+.course-nav-tab-instructor {
+    display: none;
+}
+
+/* Changing the title of the course grid page */
+
+.archive .entry-title{
+  visibility: hidden! important;
+}
+
+.archive .entry-title:after {
+  content:'Courses'; 
+  visibility: visible;
+  display: block;
+}
+
+
+/* Apply style to LearnPress registration and login links to create button effect */
+
+.checkout-form-register-toggle {
+		font-size: x-large;
+    color: white !important;
+    background-color: teal;
+    padding: 0.5em 1em;
+}
+
+.checkout-form-login-toggle {
+		font-size: large;
+    color: white !important;
+    background-color: teal;
+    padding: 0.5em 1em;
+}
+
